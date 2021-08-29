@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<meta name="keywords" content="Tourists Reservation Form template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs Sign up Web Templates,
+ Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design">-->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="cssr/font-awesome.css" rel="stylesheet">
+<link href="cssr/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+<link href="cssr/style.css" rel='stylesheet' type='text/css' />
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+<!--//fonts-->
+</head>
+<style>
+.logoText h3 {
+
+color: #292b2c;
+margin: 0;
+padding: 5px 0 8px;
+border-bottom: 1px solid #d7d7d7;
+}
+</style>
+<body>
+	 <!--================Header Area =================-->
+        <header class="header_area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="image/VIT-Pune-Logo.png"height="90" alt=""></a>
+                    <div class="logoText">
+                    <h5 style="color:#292B2C;font-family: 'Roboto Slab', serif;text-align:center">Bansilal Ramnath Agarwal Charitable Trust's</h5>
+                    <h3 style="color:#292B2C;font-family: 'Roboto Slab', serif;text-align:center">Vishwakarma Institute of Technology</h3>
+                    <h4 style="color:#5D5F61;font-family: 'Roboto Slab', serif;">(An Autonomous Institute affiliated to Savitribai Phule Pune University) </h4><br>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="adminlogin.html">Admin 	Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header><br><br><br><br>
+<!--background-->
+
+    <div class="bg-agile">
+	<div class="book-reservation">
+		<h1 style="color:#a71930"> Event Reservation Form </h1>
+			<form action="updateform.php" method="post">
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-user" aria-hidden="true"></i> Event Name :</label>
+						<input type="text" name="event" placeholder="Your name" required=""/>
+					</div>
+
+
+					 <div class="form-date-w3-agileits">
+						<label><i class="fa fa-calendar" aria-hidden="true"></i>  Date :</label>
+						<input   name="date" type="date" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+					</div>
+					<div class="form-time-w3layouts">
+							<label><i class="fa fa-clock-o" aria-hidden="true"></i>Start Time :</label>
+							<input type="time" name="stime"  value="Hrs:Min:">
+					</div>
+					<div class="form-time-w3layouts">
+							<label><i class="fa fa-clock-o" aria-hidden="true"></i>End Time :</label>
+							<input type="time" name="etime" value="Hrs:Min">
+					</div>
+
+
+					<div class="form-left-agileits-w3layouts bottom-w3ls">
+							<label><i class="fa fa-home" aria-hidden="true"></i> Venue:</label>
+							<select class="form-control" name="venue">
+								<option>Auditorium</option>
+								<option>Conference Hall</option>
+								<option>1325</option>
+								<option>1328</option>
+
+							</select>
+					</div>
+					<div class="clear"> </div>
+					<div class="make">
+						  <input type="submit" value="Make a Reservation">
+					</div>
+			</form>
+			<div style="padding-left: 300px;padding-top: 20px">
+				<a class="book_now_btn button_hover" href="new.html" style="width: 150px;height: 35px;">EDIT RECORDS</a>
+			</div>
+		</div>
+   </div>
+
+		<script type="text/javascript" src="jsr/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="jsr/wickedpicker.js"></script>
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+
+
+		<!-- Calendar -->
+				<link rel="stylesheet" href="cssr/jquery-ui.css" />
+				<script src="jsr/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- Calendar -->
+
+
+</body>
+</html>
